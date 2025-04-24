@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paso De Blas National High School</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="shortcut icon" href="./img/pdbnhs.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css?v=1.2">
+</head>
+<body>
+
+    <style>
+        
+    </style>
+    <!-- Sidebar Overlay -->
+    <div class="sidebar-overlay"></div>
+
+    <header>
+        <div class="header-left">
+            <button class="burger-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="header-title">Paso De Blas National High School</div>
+        </div>
+    </header>
+
+    <aside>
+        <div class="logo">
+            <img src="./img/pdbnhs.jpg" alt="School Logo">
+            <h1>PDBNHS</h1>
+        </div>
+        
+        <div class="menu-title">Main</div>
+        <nav class="nav-menu">
+            <a href="pdbnhs.html" class="nav-item">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+            </a>
+
+            <div class="dropdown">
+                <div class="dropdown-header" onclick="toggleDropdown(this)">
+                    <div><i class="fas fa-info-circle"></i> About Us</div>
+                    <i class="fas fa-chevron-down chevron"></i>
+                </div>
+                <div class="dropdown-content">
+                    <a href="" class="nav-item">
+                        <i class="fas fa-scroll"></i>
+                        <span>Citizen Charter</span>
+                    </a>
+
+                    <div class="dropdown">
+                        <div class="dropdown-header" onclick="toggleDropdown(this)">
+                            <div><i class="fas fa-sitemap"></i> Organizational Structure</div>
+                            <i class="fas fa-chevron-down chevron"></i>
+                        </div>
+                        <div class="dropdown-content">
+                            <a href="" class="nav-item">
+                                <i class="fa-solid fa-building"></i>
+                                <span>Departments</span>
+                            </a>
+
+                            <a href="" class="nav-item">
+                                <i class="fas fa-users-cog"></i>
+                                <span>Committees & Units</span>
+                            </a>
+                        </div>
+                      </div>
+                </div>
+              </div>
+
+            <a href="announcement.html" class="nav-item">
+                <i class="fa-solid fa-bullhorn"></i>
+                <span>Announcement</span>
+            </a>
+            <a href="gallery.html" class="nav-item">
+                <i class="fa-solid fa-images"></i>
+                <span>Gallery</span>
+            </a>
+            <a href="kto12.html" class="nav-item">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <span>K TO 12</span>
+            </a>
+            <a href="course.html" class="nav-item">
+                <i class="fa-solid fa-book-open"></i>
+                <span>Course Offerings for Senior High</span>
+            </a>
+            <a href="contact.html" class="nav-item">
+                <i class="fa-solid fa-phone"></i>
+                <span>Contact</span>
+            </a>
+        </nav>
+
+        <div class="menu-title">Units & Sections</div>
+        <nav class="nav-menu">
+            <a href="" class="nav-item">
+                <i class="fas fa-user-shield"></i>
+                <span>Guidance & Counselling</span>
+            </a>
+            <a href="" class="nav-item">
+                <i class="fas fa-clinic-medical"></i>
+                <span>Health and Nutrition</span>
+            </a>
+
+            <div class="dropdown">
+                <div class="dropdown-header" onclick="toggleDropdown(this)">
+                    <div><i class="fas fa-book"></i> LRMDS</div>
+                    <i class="fas fa-chevron-down chevron"></i>
+                </div>
+                <div class="dropdown-content">
+                    <a href="" class="nav-item">
+                        <i class="fa-solid fa-video"></i>
+                        <span>Valezuela FB Live</span>
+                    </a>
+                    <a href="" class="nav-item">
+                        <i class="fas fa-book-open"></i>
+                        <span>DepED Commons</span>
+                    </a>
+                    <a href="" class="nav-item">
+                        <i class="fas fa-desktop"></i>
+                        <span>DepED LMS</span>
+                    </a>
+                    <a href="" class="nav-item">
+                        <i class="fas fa-globe"></i>
+                        <span>DepED LRMDS</span>
+                    </a>
+                    <a href="" class="nav-item">
+                        <i class="fas fa-book-open"></i>
+                        <span>Self-Learning Module</span>
+                    </a>
+                </div>
+              </div>
+
+            <a href="" class="nav-item">
+                <i class="fa-solid fa-bullhorn"></i>
+                <span>Records</span>
+            </a>
+            <a href="" class="nav-item">
+                <i class="fa-solid fa-images"></i>
+                <span>SDRRMC</span>
+            </a>
+            <a href="" class="nav-item">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <span>ICT  </span>
+            </a>
+            <a href="" class="nav-item">
+                <i class="fa-solid fa-book-open"></i>
+                <span>BAC</span>
+            </a>
+
+
+            <div class="dropdown">
+                <div class="dropdown-header" onclick="toggleDropdown(this)">
+                    <div><i class="fas fa-file-invoice-dollar"></i> Finance</div>
+                    <i class="fas fa-chevron-down chevron"></i>
+                </div>
+                <div class="dropdown-content">
+                    <a href="" class="nav-item">
+                        <i class="fas fa-clipboard-check"></i>
+                        <span>Trainings Attended</span>
+                    </a>
+                    <a href="" class="nav-item">
+                        <i class="fas fa-tasks"></i>
+                        <span>Trainings Conducted</span>
+                    </a>
+                </div>
+              </div>
+
+              <div class="dropdown">
+                <div class="dropdown-header" onclick="toggleDropdown(this)">
+                    <div><i class="fas fa-user-cog"></i> Personnel</div>
+                    <i class="fas fa-chevron-down chevron"></i>
+                </div>
+                <div class="dropdown-content">
+                    <a href="" class="nav-item">
+                        <i class="fas fa-briefcase"></i>
+                        <span>Service Credit</span>
+                    </a>
+                    <a href="" class="nav-item">
+                        <i class="fas fa-file-alt"></i>
+                        <span>Service Record</span>
+                    </a>
+                </div>
+              </div>
+
+              <a href="course.html" class="nav-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Property</span>
+            </a>
+            <a href="course.html" class="nav-item">
+                <i class="fas fa-chart-pie"></i>
+                <span>DATOS</span>
+            </a>
+
+        </nav>
+        
+        <div class="menu-title">New Enrollment</div>
+            <a href="#" class="nav-item">
+                <i class="fa-solid fa-registered"></i>
+                <span>Old/Returning Enrollment</span>
+            </a>
+            <a href="" class="nav-item">
+                <i class="fa-solid fa-user"></i>
+                <span>New student and Transferee</span>
+            </a>
+        </nav>
+
+        <div class="menu-title">Document Request</div>
+            <a href="" class="nav-item">
+                <i class="fa-solid fa-file"></i>
+                <span>Online Document Request</span>
+            </a>
+        </nav>
+
+             <div class="menu-title">Summary of Attendance</div>
+            <div class="dropdown">
+                <div class="dropdown-header" onclick="toggleDropdown(this)">
+                    <div> <i class="fa-solid fa-square-check"></i> Attendance</div>
+                    <i class="fas fa-chevron-down chevron"></i>
+                </div>
+                <div class="dropdown-content">
+                    <a href="" class="nav-item">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <span>Attendance 2024-2025</span>
+                    </a>
+                    <a href="#" class="nav-item">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <span>Attendance 2025-2026</span>
+                    </a>
+            <a href="#" class="nav-item">
+                <i class="fa-solid fa-calendar-days"></i>
+                <span>Attendance 2026-2027</span>
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fa-solid fa-calendar-days"></i>
+                <span>Attendance 2027-2028</span>
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fa-solid fa-calendar-days"></i>
+                <span>Attendance 2028-2029</span>
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fa-solid fa-calendar-days"></i>
+                <span>Attendance 2029-2030</span>
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fa-solid fa-calendar-days"></i>
+                <span>Attendance 2030-2031</span>
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fa-solid fa-calendar-days"></i>
+                <span>Attendance 2031-2032</span>            
+            </a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="menu-title">Summary of Grades</div>
+    <div class="dropdown">
+        <div class="dropdown-header" onclick="toggleDropdown(this)">
+            <div><i class="fas fa-info-circle"></i> Summary of Grades</div>
+            <i class="fas fa-chevron-down chevron"></i>
+        </div>
+
+          <div class="dropdown-content">
+            <div class="dropdown">
+                <div class="dropdown-header" onclick="toggleDropdown(this)">
+                    <div><i class="fa-solid fa-calendar-days"></i> School Year 2024-2025</div>
+                    <i class="fas fa-chevron-down chevron"></i>
+                </div>
+                <div class="dropdown-content">
+                    <a href="" class="nav-item">
+                        <span>1st Quarter</span>
+                    </a>
+                    <a href="" class="nav-item">
+                        <span>2nd Quarter</span>
+                    </a>
+                    <a href="" class="nav-item">
+                        <span>3rd Quarter</span>
+                    </a>
+                    <a href="" class="nav-item">
+                        <span>4th Quarter</span>
+                    </a>
+                </div>
+              </div>
+            
+                <div class="dropdown">
+                    <div class="dropdown-header" onclick="toggleDropdown(this)">
+                        <div><i class="fa-solid fa-calendar-days"></i> School Year 2025-2026</div>
+                        <i class="fas fa-chevron-down chevron"></i>
+                    </div>
+                    <div class="dropdown-content">
+                        <a href="" class="nav-item">
+                            <span>1st Quarter</span>
+                        </a>
+                        <a href="" class="nav-item">
+                            <span>2nd Quarter</span>
+                        </a>
+                        <a href="" class="nav-item">
+                            <span>3rd Quarter</span>
+                        </a>
+                        <a href="" class="nav-item">
+                            <span>4th Quarter</span>
+                        </a>
+                    </div>
+                  </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="menu-title">Quarterly Grades</div>
+    <div class="dropdown">
+        <div class="dropdown-header" onclick="toggleDropdown(this)">
+            <div><i class="fa-solid fa-rectangle-list"></i> Grades</div>
+            <i class="fas fa-chevron-down chevron"></i>
+        </div>
+        <div class="dropdown-content">
+            <a href="" class="nav-item">
+                <i class="fa-solid fa-rectangle-list"></i>
+                <span>1st Quarter</span>
+            </a>
+            <a href="" class="nav-item">
+                <i class="fa-solid fa-rectangle-list"></i>
+                <span>2nd Quarter</span>
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fa-solid fa-rectangle-list"></i>
+                <span>3rd Quarter</span>
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fa-solid fa-rectangle-list"></i>
+                <span>4th Quarter</span>
+            </a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="menu-title">Quarter MPS</div>
+    <div class="dropdown">
+        <div class="dropdown-header" onclick="toggleDropdown(this)">
+            <div><i class="fas fa-info-circle"></i> Quarter MPS</div>
+            <i class="fas fa-chevron-down chevron"></i>
+        </div>
+
+          <div class="dropdown-content">
+            <div class="dropdown">
+                <div class="dropdown-header" onclick="toggleDropdown(this)">
+                    <div><i class="fa-solid fa-calendar-days"></i> School Year 2024-2025</div>
+                    <i class="fas fa-chevron-down chevron"></i>
+                </div>
+                <div class="dropdown-content">
+                    <a href="" class="nav-item">
+                        <span>1st Quarter</span>
+                    </a>
+                    <a href="" class="nav-item">
+                        <span>2nd Quarter</span>
+                    </a>
+                    <a href="" class="nav-item">
+                        <span>3rd Quarter</span>
+                    </a>
+                    <a href="" class="nav-item">
+                        <span>4th Quarter</span>
+                    </a>
+                </div>
+              </div>
+            
+                <div class="dropdown">
+                    <div class="dropdown-header" onclick="toggleDropdown(this)">
+                        <div><i class="fa-solid fa-calendar-days"></i> School Year 2025-2026</div>
+                        <i class="fas fa-chevron-down chevron"></i>
+                    </div>
+                    <div class="dropdown-content">
+                        <a href="" class="nav-item">
+                            <span>1st Quarter</span>
+                        </a>
+                        <a href="" class="nav-item">
+                            <span>2nd Quarter</span>
+                        </a>
+                        <a href="" class="nav-item">
+                            <span>3rd Quarter</span>
+                        </a>
+                        <a href="" class="nav-item">
+                            <span>4th Quarter</span>
+                        </a>
+                    </div>
+                  </div>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="menu-title">CURRICULUM IMPLEMENTATION AUDIT</div>
+      <div class="dropdown">
+        <div class="dropdown-header" onclick="toggleDropdown(this)">
+            <div><i class="fas fa-info-circle"></i> CIA</div>
+            <i class="fas fa-chevron-down chevron"></i>
+        </div>
+
+          <div class="dropdown-content">
+            <div class="dropdown">
+                <div class="dropdown-header" onclick="toggleDropdown(this)">
+                    <div><i class="fa-solid fa-calendar-days"></i> School Year 2024-2025</div>
+                    <i class="fas fa-chevron-down chevron"></i>
+                </div>
+                <div class="dropdown-content">
+                    <a href="" class="nav-item">
+                        <span>1st Quarter</span>
+                    </a>
+                    <a href="" class="nav-item">
+                        <span>2nd Quarter</span>
+                    </a>
+                    <a href="" class="nav-item">
+                        <span>3rd Quarter</span>
+                    </a>
+                    <a href="" class="nav-item">
+                        <span>4th Quarter</span>
+                    </a>
+                </div>
+              </div>
+            
+                <div class="dropdown">
+                    <div class="dropdown-header" onclick="toggleDropdown(this)">
+                        <div><i class="fa-solid fa-calendar-days"></i> School Year 2025-2026</div>
+                        <i class="fas fa-chevron-down chevron"></i>
+                    </div>
+                    <div class="dropdown-content">
+                        <a href="" class="nav-item">
+                            <span>1st Quarter</span>
+                        </a>
+                        <a href="" class="nav-item">
+                            <span>2nd Quarter</span>
+                        </a>
+                        <a href="" class="nav-item">
+                            <span>3rd Quarter</span>
+                        </a>
+                        <a href="" class="nav-item">
+                            <span>4th Quarter</span>
+                        </a>
+                    </div>
+                  </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="menu-title">SCHOOLS</div>
+    <div class="dropdown">
+        <div class="dropdown-header" onclick="toggleDropdown(this)">
+            <div><i class="fas fa-clipboard-check"></i> SCHOOLS</div>
+            <i class="fas fa-chevron-down chevron"></i>
+        </div>
+        <div class="dropdown-content">
+            <a href="" class="nav-item">
+                <i class="fa-solid fa-file-medical"></i>
+                <span>DepEd Email Account Request</span>
+            </a>
+            <a href="" class="nav-item">
+                <i class="fa-solid fa-file-medical"></i>
+                <span>Microsoft 365 Account Request</span>
+            </a>
+            <a href="" class="nav-item">
+                <i class="fa-solid fa-file-medical"></i>
+                <span>Division Memorandum</span>
+            </a>
+      </div>
+    </nav>
+    <div class="menu-title">MORE</div>
+    <div class="dropdown">
+        <div class="dropdown-header" onclick="toggleDropdown(this)">
+            <div><i class="fa-solid fa-folder-plus"></i> MORE</div>
+            <i class="fas fa-chevron-down chevron"></i>
+        </div>
+        <div class="dropdown-content">
+            <a href="" class="nav-item">
+                <i class="fa-solid fa-file-lines"></i>
+                <span>School Papers</span>
+            </a>
+            <a href="" class="nav-item">
+                <i class="fa-solid fa-calendar-check"></i>
+                <span>School Plans</span>
+            </a>
+            <a href="" class="nav-item">
+                <i class="fa-solid fa-download"></i>
+                <span>Downloadables</span>
+            </a>
+      </div>
+    </nav>
+
+    <div class="menu-title">INSURANCE</div>
+    <div class="dropdown">
+        <div class="dropdown-header" onclick="toggleDropdown(this)">
+            <div><i class="fa-solid fa-shield-halved"></i> INSURANCE</div>
+            <i class="fas fa-chevron-down chevron"></i>
+        </div>
+        <div class="dropdown-content">
+            <a href="" class="nav-item">
+                <i class="fa-solid fa-bell"></i>
+                <span>School Advisories</span>
+            </a>
+            <a href="" class="nav-item">
+                <i class="fa-solid fa-file-lines"></i>
+                <span>School Letters</span>
+            </a>
+            <a href="" class="nav-item">
+                <i class="fa-solid fa-file-lines"></i>
+                <span>School Memoranda</span>
+            </a>
+      </div>
+    </nav>
+
+    <div class="menu-title">SCHOOL RECORDS</div>
+    <div class="dropdown">
+        <div class="dropdown-header" onclick="toggleDropdown(this)">
+            <div><i class="fa-solid fa-folders"></i> SCHOOL RECORDS</div>
+            <i class="fas fa-chevron-down chevron"></i>
+        </div>
+        <div class="dropdown-content">
+            <a href="" class="nav-item">
+                <i class="fa-solid fa-folder-open"></i>
+                <span>WINS</span>
+            </a>
+            <a href="" class="nav-item">
+                <i class="fa-solid fa-folder-open"></i>
+                <span>TALA</span>
+            </a>
+      </div>
+    </nav>
+
+    <div class="menu-title">TRANSPARENCY</div>
+    <div class="dropdown">
+        <div class="dropdown-header" onclick="toggleDropdown(this)">
+            <div><i class="fa-solid fa-folder-open"></i> TRANSPARENCY</div>
+            <i class="fas fa-chevron-down chevron"></i>
+        </div>
+        <div class="dropdown-content">
+            <a href="" class="nav-item">
+                <i class="fa-solid fa-receipt"></i>
+                <span>Donations</span>
+            </a>
+            <a href="" class="nav-item">
+                <i class="fa-solid fa-arrow-up-from-bracket"></i>
+
+                <span>Disbursement</span>
+            </a>
+            <a href="" class="nav-item">
+                <i class="fa-solid fa-boxes-stacked"></i>
+                <span>Procurement</span>
+            </a>
+      </div>
+    </nav>
+    </aside>
+
+
+    <main>
+    </main>
+
+    <footer>
+        <p>© 2025 Paso De Blas National High School. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Toggle sidebar
+            const burgerBtn = document.querySelector('.burger-btn');
+            const sidebar = document.querySelector('aside');
+            const sidebarOverlay = document.querySelector('.sidebar-overlay');
+            
+            burgerBtn.addEventListener('click', function() {
+                sidebar.classList.toggle('show');
+                sidebarOverlay.classList.toggle('show');
+            });
+            
+            sidebarOverlay.addEventListener('click', function() {
+                sidebar.classList.remove('show');
+                sidebarOverlay.classList.remove('show');
+            });
+
+            // Navigation menu active state
+            const navItems = document.querySelectorAll('.nav-item');
+            
+            navItems.forEach(item => {
+                item.addEventListener('click', function(e) {
+                    
+                    navItems.forEach(nav => nav.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    // Close sidebar on mobile after clicking a nav item
+                    if (window.innerWidth <= 992) {
+                        sidebar.classList.remove('show');
+                        sidebarOverlay.classList.remove('show');
+                    }
+                });
+            });
+            
+            // Responsive adjustment
+            function handleResize() {
+                if (window.innerWidth > 992) {
+                    sidebar.classList.add('show');
+                } else {
+                    sidebar.classList.remove('show');
+                }
+            }
+            
+            window.addEventListener('resize', handleResize);
+            handleResize();
+        });
+
+
+        function toggleDropdown(header) {
+    const dropdown = header.parentElement;
+    const content = dropdown.querySelector('.dropdown-content');
+    const chevron = dropdown.querySelector('.chevron');
+    
+    dropdown.classList.toggle('active');
+    content.classList.toggle('show');
+    header.setAttribute('aria-expanded', header.classList.contains('active'));
+}
+    </script>
+</body>
+</html>
